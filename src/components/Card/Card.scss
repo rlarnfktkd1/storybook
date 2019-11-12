@@ -1,0 +1,13 @@
+.Card {
+  border: 1px solid black;
+  &.small {
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+  }
+
+  &.medium {
+    width: 300px;
+    height: 350px;
+  }
+}

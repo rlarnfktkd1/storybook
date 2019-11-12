@@ -1,0 +1,23 @@
+.Title {
+  width: max-content;
+  font-weight: 900;
+  &.small {
+    font-size: 20px;
+  }
+
+  &.large {
+    font-size: 28px;
+  }
+
+  &.none {
+    border: none;
+  }
+
+  &.thin {
+    border-bottom: solid 4px #1e59ea;
+  }
+
+  &.thick {
+    border-bottom: solid 7px #1e59ea;
+  }
+}
